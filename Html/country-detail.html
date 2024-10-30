@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country Details</title>
+    <link rel="stylesheet" href="/Style/min.css">
+    <link rel="stylesheet" href="/Style/norm.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body class="">
+
+    <header class="siteHeader">
+        <div class="container">
+            <div>
+                <h1 class="siteLogo ">Where in the world?</h1>
+            </div>
+            <div>
+                <button class="js-dark-btn siteBtn "><i class='bx bx-moon'></i> Dark Mode</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="sectionOne sectionTwo">
+        <button class="backBtn">Back</button>
+        <div class="countryAboutContainer">
+            <div>
+                <img class="country-flag" src="" alt="Country Flag">
+            </div>
+            <div class="countryBox">
+                <h1 class="country-name"></h1>
+                <div class="countryTextContainer">
+                    <div class="countryTextBox">
+                        <p><strong>Native Name: </strong> <span class="country-native-name"></span></p>
+                        <p><strong>Population: </strong> <span class="country-population"></span></p>
+                        <p><strong>Region: </strong> <span class="country-region"></span></p>
+                        <p><strong>Sub Region: </strong> <span class="country-sub-region"></span></p>
+                        <p><strong>Capital: </strong> <span class="country-capital"></span></p>
+                    </div>
+                    <div class="countryTextBoxTwo">
+                        <p><strong>Top Level Domain: </strong><span class="lvlDomain"></span></p>
+                        <p><strong>Currencies: </strong><span class="currencies"></span></p>
+                        <p><strong>Languages: </strong><span class="languages"></span></p>
+                    </div>
+                </div>
+                <div class="bottomCountryContainer">
+                    <div>
+                        <strong>Border Countries: </strong>
+                    </div>
+                    <ul class="bottomCountryText">
+                        <li class="botmTexOne"></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="/JavaScript/country.js"></script>
+    <script src="/JavaScript/main.js"></script>
+</body>
+
+</html>

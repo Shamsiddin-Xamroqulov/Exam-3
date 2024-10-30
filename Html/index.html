@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Style/min.css">
+    <link rel="stylesheet" href="/Style/norm.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body class="">
+
+    <template class="js-template">
+        <li class="js-country countryContainer">
+            <div class="imageContainer"><img class="js-flag-img" src=""></div>
+            <div class="js-country-about countryAbout">
+                <h3 class="countryTitle js-title "></h3>
+                <p class="population ">Population: <span class="js-population populationAbout "> </span></p>
+                <p class="population ">Region: <span class="js-region populationAbout "></span></p>
+                <p class="population ">Capital: <span class="js-capital populationAbout "> </span></p>
+            </div>
+        </li>
+    </template>
+
+    <header class="js-site-header siteHeader">
+        <div class="container">
+            <div>
+                <h1 class="js-site-logo siteLogo ">Where in the world?</h1>
+            </div>
+            <div>
+                <button class="js-dark-btn siteBtn "><i class='bx bx-moon'></i> Dark Mode</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="js-section-one sectionOne">
+        <div class="sectionContainer">
+            <div class="js-search-box searchBox">
+                <div class="search">
+                    <i class='bx bx-search searchIcon'></i>
+                    <input class="js-input searchInput" type="text" placeholder="Search for a country...">
+                </div>
+            </div>
+            <div class="filterSelect">
+                <select class="js-filter-select filterRegionSelect">
+                    <option hidden disabled selected>Filter by Title</option>
+                    <option class="">A-z</option>
+                    <option class="">Z-a</option>
+                    <option class="">Max-Population</option>
+                    <option class="">Min-Population</option>
+                </select>
+                <select class="js-filter-select-two filterRegionSelect">
+                    <option class="" value="" hidden disabled selected>Filter by Region</option>
+                    <option class="" value="Africa">Africa</option>
+                    <option class="" value="America">America</option>
+                    <option class="" value="Antarctic">Antarctic</option>
+                    <option class="" value="Asia">Asia</option>
+                    <option class="" value="Europe">Europe</option>
+                    <option class="" value="Oceania">Oceania</option>
+                </select>
+            </div>
+        </div>
+
+        <ul class="countryContinerBox js-list"></ul>
+
+        <div class="js-btn-container  btnContainer">
+            <button class="js-prev-btn prevBtn">Prev</button>
+            <h1 class="js-page"></h1>
+            <button class="js-next-btn nextBtn">Next</button>
+        </div>
+    </section>
+
+    <script src="/JavaScript/main.js"></script>
+</body>
+
+</html>

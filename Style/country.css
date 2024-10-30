@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+.country-flag {
+  width: 560px;
+  height: 401px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px #00000027;
+}
+.sectionTwo {
+  height: 89vh;
+}
+.backBtn {
+  padding: 5px 15px;
+  background-color: #fff;
+  box-shadow: 1px 3px 7px #0000000e;
+  border: 1px solid #0000003f;
+  border-radius: 3px;
+  margin-bottom: 3%;
+  transition: all 0.5s;
+}
+.backBtn:hover {
+  transform: scale(1.1);
+  box-shadow: 2px 5px 10px #00000027;
+}
+.countryAboutContainer {
+  display: flex;
+  align-items: start;
+  gap: 10%;
+}
+.countryBox {
+  width: 100%;
+}
+.country-name {
+  font-size: 32px;
+  line-height: 43.65px;
+  margin: 50px 0 15px 0;
+}
+.countryTextBox {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 15px;
+}
+.siteHeader {
+  width: 100%;
+  padding: 1.5% 5%;
+  box-shadow: 5px 5px 10px #0000000e;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.siteLogo {
+  font-size: 26px;
+  line-height: 32.74px;
+  color: #111517;
+}
+.siteBtn {
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 15px;
+  font-size: 16px;
+  line-height: 21.82px;
+  color: #111517;
+  transition: all 0.5s;
+  border-radius: 5px;
+}
+.siteBtn:hover {
+  background-color: #2b3844;
+  color: #fff;
+}
+.countryTextBoxTwo {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.countryTextContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionOne {
+  width: 100%;
+  padding: 3% 5%;
+  background-color: rgba(190, 190, 190, 0.24);
+}
+.bottomCountryContainer {
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.bottomCountryText {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.botmTexOne {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.botmTexTwo {
+  padding: 3px 22px;
+  box-shadow: 1px 2px 5px #0000001b;
+  border-radius: 3px;
+}
+ul {
+  list-style: none;
+}
+.js-country-body .siteHeader {
+  background-color: #2b3844;
+}
+.js-country-body .siteLogo {
+  color: #fff;
+}
+.js-country-body .siteBtn {
+  color: #fff;
+}
+.js-country-body .siteBtn:hover {
+  color: #2b3844;
+  background-color: #fff;
+}
+.js-country-body .sectionOne {
+  background-color: #202c36;
+  color: #fff;
+}
+.js-country-body .botmTexTwo {
+  background-color: #ffffff25;
+}
+.js-country-body .backBtn {
+  color: #fff;
+  background-color: #2b3844;
+}
